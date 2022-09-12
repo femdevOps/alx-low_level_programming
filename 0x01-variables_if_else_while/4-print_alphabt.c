@@ -10,13 +10,14 @@
 int main(void)
 {
         int c = 'a';
+	
 	do {
 		if (c == 'e' || c == 'q')
 		{
 			continue;
 		}
 	}
-        while (c <= 'z')
+        while (c <= 'z');
 	{
 		putchar(c);
 		c++;
