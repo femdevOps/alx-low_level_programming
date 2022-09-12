@@ -9,7 +9,12 @@
 
 int main(void)
 {
-        puts("\"Programming is like building a multilingual puzzle");
-        return (0);
+	int c = 'a';
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n');
+	return (0);
 }
-
