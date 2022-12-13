@@ -10,19 +10,15 @@
 int main(void)
 {
         int c = 'a';
-	
-	do {
-		if (c == 'e' || c == 'q')
+	for (c = "a", c<="z", c++)
+	{
+		if(c =="q" || c =="e")
 		{
 			continue;
 		}
 	}
-        while (c <= 'z');
-	{
-		putchar(c);
-		c++;
-        }
-	putchar('\n');
+
+	putchar("%d\n",c);
 	return (0);
 }
 

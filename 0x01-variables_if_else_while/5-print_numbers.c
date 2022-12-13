@@ -14,7 +14,7 @@ int main(void)
 	while (c <= 9)
 	{
 		printf("%d", c);
-		c++;
+		++c;
 	}
 	return (0);
 }
