@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: print _putchar
- * Return: 0
+ * Return: Always 0
  */
 
 int main(void)
@@ -16,5 +16,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+
 	return (0);
 }
