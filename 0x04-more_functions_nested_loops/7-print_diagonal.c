@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonally - Prints diagonally when n is initialized.
+ * print_diagonal - Prints diagonally when n is initialized.
  * @n: The integer to be checked.
  *
  * Return: void
