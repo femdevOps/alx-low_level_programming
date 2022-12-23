@@ -9,9 +9,18 @@
 
 void print_number(int n)
 {
-	for(n = 0; n > 0; i++)
+	unsigned int x;
+
+	if (n < 0)
 	{
-		_putchar(n);
+		_putchar('-');
+		n *= -1;
 	}
-	_putchar('\n')
+
+	x = n;
+
+	if (x / 10)
+		print_number(x / 10);
+
+	_putchar(x % 10 + '0');
 }
